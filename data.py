@@ -1,5 +1,5 @@
 
-class TestAuthorizationData:
+class AuthorizationData:
     REGISTRATION_COURIER_BODY = {
         "login": "qwerty",
         "password": "12345",
@@ -49,7 +49,7 @@ class TestAuthorizationData:
     }
 
 
-class TestOrderData:
+class OrderData:
 
     ORDER_BODY_BLACK = {
         "firstName": "Мария",

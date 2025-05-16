@@ -4,7 +4,7 @@ from faker import Faker
 from data import TestAuthorizationData
 
 
-class TestDataHelper:
+class DataHelper:
 
     @allure.step('Сформировать рандомные данные для регистрации нового курьера')
     def generate_registration_body():
